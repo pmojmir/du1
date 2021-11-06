@@ -46,7 +46,7 @@ for i in range(velikost):
     print("Kolo", i+1)
     x = (int(input("Zadej souřadnici X v kartézském systému: ")))
     y = (int(input("Zadej souřadnici Y v kartézském systému: ")))
-     #Ošetření vstupů 
+    #Ošetření vstupů 
     while x > nx or x <= 0:
         print("Hraješ mimo hrací pole")
         x = (int(input("Zadej znovu souřadnici X v kartézském systému: ")))
